@@ -1,10 +1,11 @@
 <?php
-require_once "controllers/CategoryController.php";
-require_once "controllers/ProductController.php";
-require_once "models/Product.php";
-use Controllers\ProductController;
-use Controllers\CategoryController;
-use Models\Product;
+// require_once "controllers/CategoryController.php";
+// require_once "controllers/ProductController.php";
+// require_once "models/Product.php";
+require_once "vendor/autoload.php";
+use App\Controllers\ProductController;
+use App\Controllers\CategoryController;
+use App\Models\Product;
 
 $ctgController = new CategoryController();
 $productConller = new ProductController();
